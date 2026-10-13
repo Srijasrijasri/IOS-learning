@@ -1,0 +1,10 @@
+var name = "Srija"
+var age = 21
+let language = "Swift"
+
+print("Name:", name)
+print("Age:", age)
+print("Language:", language)
+
+age = 22
+print("Updated Age:", age)
