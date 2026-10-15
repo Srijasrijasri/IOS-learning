@@ -1,0 +1,29 @@
+1.positive or negative
+
+let number = 10
+
+if number > 0 {
+    print("Positive number")
+} else {
+    print("Negative or zero")
+}
+
+2. Check even or odd
+
+let number = 7
+
+if number % 2 == 0 {
+    print("Even")
+} else {
+    print("Odd")
+}
+
+3. Check pass or fail
+
+let mark = 65
+
+if mark >= 35 {
+    print("Pass")
+} else {
+    print("Fail")
+}
