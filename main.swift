@@ -1,10 +1,10 @@
-var name = "Srija"
-var age = 21
-let language = "Swift"
-
-print("Name:", name)
-print("Age:", age)
-print("Language:", language)
-
-age = 22
-print("Updated Age:", age)
+var name:String="srija"
+var age:Int=23
+var college:String="kpr"
+var mark:Double=23.4
+var isstudent:Bool=true
+print(name)
+print(age)
+print(college)
+print(mark)
+print(isstudent)
