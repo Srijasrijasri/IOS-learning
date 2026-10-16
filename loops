@@ -27,3 +27,22 @@ if mark >= 35 {
 } else {
     print("Fail")
 }
+
+
+4. Find Factorial of a Number
+
+func factorial(n: Int) -> Int {
+    var result = 1
+
+    if n < 0 {
+        return -1
+    }
+
+    for i in 1...n {
+        result = result * i
+    }
+
+    return result
+}
+
+print(factorial(n: 5))
