@@ -1,0 +1,34 @@
+1. Find the length of a string
+
+let text = "Hello"
+print(text.count)
+
+2. Combine two strings
+
+let first = "Hello"
+let second = "World"
+
+print(first + " " + second)
+
+3. String interpolation
+
+let name = "Srija"
+let age = 21
+
+print("My name is \(name) and I am \(age) years old")
+
+4.Reverse a string
+
+let text = "Swift"
+print(String(text.reversed()))
+
+5.Compare two strings
+
+let str1 = "Swift"
+let str2 = "Swift"
+
+if str1 == str2 {
+    print("Equal")
+} else {
+    print("Not Equal")
+}
