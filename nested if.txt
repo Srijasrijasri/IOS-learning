@@ -1,0 +1,50 @@
+1. Voting Eligibility with ID
+
+let age = 20
+let hasID = true
+
+if age >= 18 {
+    if hasID {
+        print("Eligible to vote")
+    } else {
+        print("ID required")
+    }
+} else {
+    print("Not eligible")
+}
+
+
+2. Login Authentication
+
+let username = "srija"
+let password = "1234"
+
+if username == "srija" {
+    if password == "1234" {
+        print("Login successful")
+    } else {
+        print("Incorrect password")
+    }
+} else {
+    print("Incorrect username")
+}
+
+3. ATM Withdrawal
+
+let balance = 5000
+let amount = 2000
+let pinCorrect = true
+
+if pinCorrect {
+    if amount > 0 {
+        if amount <= balance {
+            print("Withdrawal successful")
+        } else {
+            print("Insufficient balance")
+        }
+    } else {
+        print("Invalid amount")
+    }
+} else {
+    print("Incorrect PIN")
+}
