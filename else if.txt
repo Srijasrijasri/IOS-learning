@@ -1,0 +1,43 @@
+1. Positive, Negative or Zero
+
+let num = -5
+
+if num > 0 {
+    print("Positive")
+} else if num < 0 {
+    print("Negative")
+} else {
+    print("Zero")
+}
+
+
+2. Find Grade
+
+let mark = 85
+
+if mark >= 90 {
+    print("Grade A")
+} else if mark >= 75 {
+    print("Grade B")
+} else if mark >= 50 {
+    print("Grade C")
+} else {
+    print("Fail")
+}
+
+
+3. Find the Greatest of Three Numbers
+
+let a = 10
+let b = 25
+let c = 15
+
+if a > b && a > c {
+    print("A is greatest")
+} else if b > a && b > c {
+    print("B is greatest")
+} else if c > a && c > b {
+    print("C is greatest")
+} else {
+    print("Some numbers are equal")
+}
