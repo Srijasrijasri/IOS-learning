@@ -1,0 +1,47 @@
+1. find day
+let day=5
+switch day{
+  
+case 1:
+  print("monday")
+case 2:
+  print("tuesday")
+case 3:
+  print("wednesday")
+case 4:
+  print("thursday")
+case 5:
+  print("friday")
+default:
+  print("invalid")
+}
+
+2.calculator 
+let a=20
+let b=30
+let operation="/"
+switch operation{
+case "+":
+  print(a + b)
+case "-":
+  print(a-b)
+case "*":
+  print(a*b)
+case "/":
+  print(a/b)
+default:
+  print("invalid")
+}
+
+3.even or odd
+let num=5
+let res=num%2==0 ? "Even" : "odd"
+print(res)
+
+4.find largest
+let a=20
+let b=40
+let largest = a>b ? a:b
+print(largest)
+
+
