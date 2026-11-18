@@ -1,0 +1,36 @@
+
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        VStack(spacing: 20) {
+
+            Text("My Profile")
+                .font(.largeTitle)
+                .bold()
+
+            Image(systemName: "person.circle.fill")
+                .resizable()
+                .frame(width: 100, height: 100)
+                .foregroundStyle(.navy)
+            Text("Name: Srija")
+                .font(.title2)
+
+            Text("Department: AI&DS")
+
+            Text("College: KIT")
+                .multilineTextAlignment(.center)
+            
+            Button("Welcome") {
+                print("Welcome to SwiftUI!")
+            }
+            .padding()
+            .background(.navy)
+            .foregroundStyle(.white)
+            .cornerRadius(10)
+        }
+        .padding()
+    }
+}
+    ContentView()
+
