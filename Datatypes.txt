@@ -1,0 +1,47 @@
+
+1. Integer (Int)
+var age: Int = 21
+var mark: Int = 85
+
+print(age)
+print(mark)
+
+
+2. Double
+let price: Double = 150.75
+let tax: Double = 10.25
+
+let total = price + tax
+
+print(total)
+
+3. Float
+let a: Float = 10.5
+let b: Float = 20.5
+
+let result = a + b
+
+print(result)
+
+
+4. String
+let name = "Srija"
+
+print(name.count)
+print(name.uppercased())
+print(name.lowercased())
+print(name.contains("S"))
+
+5. Character
+let grade: Character = "A"
+let symbol: Character = "@"
+
+print(grade)
+print(symbol)
+
+6. Boolean (Bool)
+let isPassed: Bool = true
+let isCompleted: Bool = false
+
+print(isPassed)
+print(isCompleted)
