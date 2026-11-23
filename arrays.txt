@@ -1,0 +1,35 @@
+var numbers = [10, 20, 30, 40, 50]
+
+print("Count:", numbers.count)
+print("Empty:", numbers.isEmpty)
+print("First:", numbers.first!)
+print("Last:", numbers.last!)
+print("Indices:", numbers.indices)
+print("Capacity:", numbers.capacity)
+
+1.contains()
+let numbers = [10, 20, 30, 40]
+print(numbers.contains(20))
+print(numbers.contains(50))
+
+2 firstIndex(of:)
+let numbers = [10, 20, 30, 20, 40]
+print(numbers.firstIndex(of: 20)!)
+
+3 lastIndex(of:)
+let numbers = [10, 20, 30, 20, 40]
+print(numbers.lastIndex(of: 20)!)
+
+4 Sorting Strings
+let names = ["Srija", "raksi", "Arun", "Bala"]
+
+let result = names.sorted()
+
+print(result)
+
+5 swapAt()
+var numbers = [10, 20, 30, 40]
+
+numbers.swapAt(0, 2)
+
+print(numbers)
