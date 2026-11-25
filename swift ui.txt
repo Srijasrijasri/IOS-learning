@@ -1,0 +1,63 @@
+ 
+import SwiftUI
+
+struct ContentView: View {
+
+    var body: some View {
+
+        VStack(spacing: 20) {
+
+            HeaderView()
+
+            StudentView()
+
+            FooterView()
+
+        }
+        .padding()
+    }
+}
+
+struct HeaderView: View {
+
+    var body: some View {
+
+        Text("MY LEARNING APP")
+            .font(.largeTitle)
+            .fontWeight(.bold)
+            .foregroundStyle(.blue)
+    }
+}
+
+struct StudentView: View {
+
+    var body: some View {
+
+        VStack(spacing: 10) {
+
+            Image(systemName: "graduationcap.fill")
+                .font(.system(size: 60))
+                .foregroundStyle(.orange)
+
+            Text("SwiftUI Learning")
+                .font(.title2)
+
+            Text("Beginner Level")
+                .foregroundStyle(.secondary)
+        }
+    }
+}
+
+struct FooterView: View {
+
+    var body: some View {
+
+        Text("Keep Learning")
+            .font(.headline)
+            .foregroundStyle(.green)
+    }
+}
+
+
+    ContentView()
+
